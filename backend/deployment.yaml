@@ -4,6 +4,7 @@ metadata:
   name: bookappbackend
   labels:
     app: bookappbackend
+    version: "0.0.2"
 spec:
   replicas: 1
   selector:
