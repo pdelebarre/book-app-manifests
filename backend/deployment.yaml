@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: bookappbackend
-          image: pdelebarre/bookappbackend:latest
+          image: pdelebarre/bookappbackend:0.0.2
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
