@@ -4,7 +4,6 @@ metadata:
   name: bookappbackend
   labels:
     app: bookappbackend
-    version: "0.0.2"
 spec:
   replicas: 1
   selector:
@@ -17,7 +16,7 @@ spec:
     spec:
       containers:
         - name: bookappbackend
-          image: pdelebarre/bookappbackend:0.0.2
+          image: pdelebarre/bookappbackend:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
